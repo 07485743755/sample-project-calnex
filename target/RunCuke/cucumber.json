@@ -1,0 +1,261 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3591855000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to top menu tab page successfully",
+        "description": "",
+        "id": "top-tab-menu-test;user-should-navigate-to-top-menu-tab-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 621416900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86084900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 858652600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on contact tab",
+            "match": {
+              "location": "MyStepdefs.iClickOnContactTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 636175700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am able to navigate to selected tab page successfully with \"your queries answered\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "your queries answered",
+                  "offset": 62
+                }
+              ],
+              "location": "MyStepdefs.iAmAbleToNavigateToSelectedTabPageSuccessfullyWith(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2815594100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should able to submit contact information successfully",
+        "description": "",
+        "id": "top-tab-menu-test;user-should-able-to-submit-contact-information-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1225367200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 825015100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on contact page",
+            "match": {
+              "location": "MyStepdefs.iAmOnContactPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200543500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter first name \"Harry\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry",
+                  "offset": 20
+                }
+              ],
+              "location": "MyStepdefs.iEnterFirstNameInFirstNameField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146223500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter last name \"Potter\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Potter",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iEnterLastNameInLastNameField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125899400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email (user name \"harry\" and Domain\"@gmail.com\") in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "harry",
+                  "offset": 26
+                },
+                {
+                  "val": "@gmail.com",
+                  "offset": 44
+                }
+              ],
+              "location": "MyStepdefs.iEnterEmailUserNameAndDomainInEmailField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104391500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter company name \"Harry Potter\" in company name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry Potter",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs.iEnterCompanyNameInCompanyNameField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166190100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I check agreement check box",
+            "match": {
+              "location": "MyStepdefs.iCheckAgreementCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642827400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on submit button",
+            "match": {
+              "location": "MyStepdefs.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20136140900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(text(),\u0027Thank you for contacting Calnex Solutions.\u0027)]\"}\n  (Session info: chrome\u003d93.0.4577.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-7FSFVSR\u0027, ip: \u0027192.168.0.15\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\\Users\\Nidhi\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 882dde4e85fe7b7d5ba55823735070ce\n*** Element info: {Using\u003dxpath, value\u003d//p[contains(text(),\u0027Thank you for contacting Calnex Solutions.\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.getText(Unknown Source)\r\n\tat com.calnexsol.utility.Utility.getTextFromElement(Utility.java:51)\r\n\tat com.calnexsol.pages.ContactPage.getConfirmationTxt(ContactPage.java:86)\r\n\tat com.calnexsol.stepdefs.MyStepdefs.iAmAbleToSubmitContactDetailsSuccessfullyWithConfirmationText(MyStepdefs.java:77)\r\n\tat ✽.Then I am able to submit contact details successfully with confirmation text \"Thank you for contacting Calnex Solutions.\"(src/test/java/resources/featureFile/homepageTabManu.feature:19)\r\n",
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "I am able to submit contact details successfully with confirmation text \"Thank you for contacting Calnex Solutions.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thank you for contacting Calnex Solutions.",
+                  "offset": 73
+                }
+              ],
+              "location": "MyStepdefs.iAmAbleToSubmitContactDetailsSuccessfullyWithConfirmationText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Top Tab Menu Test",
+    "description": "As a user I want to navigate to top menu tab of homepage of Calnex website",
+    "id": "top-tab-menu-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featureFile/homepageTabManu.feature"
+  }
+]
